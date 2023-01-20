@@ -1,0 +1,1743 @@
+/* phone */
+
+@media (max-width: 475px) {
+        /* header  */
+
+    /* header left */
+
+    .header .header-left {
+        width: 80%;
+    }
+
+    /* header logo */
+
+    .header-left .header-logo {
+        padding-left: 20px;
+    }
+
+    /* web site logo */
+
+    .header-logo .logo {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    /* header right */
+
+    .header .header-right {
+        width: 20%;
+    }
+
+    /* header nav */
+
+    .header-right .header-nav {
+        width: 50%;
+        padding-left: 0;
+    }
+
+    /* header items */
+
+    .header-nav .header-items {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    /* header item */
+
+    .header-items .header-item {
+        display: none;
+    }
+
+    /* header responsive item display block */
+
+    .header-items .responsive-item {
+        display: flex;
+    }
+
+    /* header responsive menu link */
+
+    .responsive-item .responsive-link {
+        font-size: 21px;
+        color: var(--white);
+    }
+
+    /* header form */
+
+    .header-right .header-form {
+        justify-content: flex-end;
+        width: 50%;
+        padding-right: 20px;
+    }
+
+    /* responsive form link icon */
+
+    .header-form .responsive-form {
+        display: block;
+        color: var(--white);
+        font-size: 19px;
+    }
+
+
+    /* header form link */
+
+    .header-form .header-form-link {
+        display: none;
+    }
+
+    /* background image */
+
+    .article .background {
+        height: 45vh;
+    }
+
+    /* background before */
+
+    .article .background::before {
+        height: 45%;
+    }
+
+    /* background content */
+
+    .background .background-content {
+        width: 100%;
+    }
+    
+    /* background image course name */
+    
+    .background-content .span-text {
+        font-size: 35px;
+    }
+
+    /* article */
+
+    /* article courses */
+
+    .article .courses {
+        height: 180rem;
+    }
+
+    /* courses title */
+
+    .courses .courses-title {
+        align-items: center;
+    }
+
+    /* courses list div */
+
+    .courses .courses-list-div {
+        height: 170rem;
+    }
+
+    /* courses title text */
+    
+    .courses-title .courses-title-text {
+        font-size: 31px;
+    }
+
+    /* courses list */
+
+    .courses-list-div .courses-list {
+        width: 90%;
+        height: 15%;
+    }
+
+    /* courses icon */
+
+    .courses-icon i {
+        font-size: 50px;
+    }
+
+    /* courses card title */
+
+    .courses-name .courses-card-title {
+        font-size: 23px;
+    }
+
+    /* courses card text */
+
+    .courses-name .courses-card-text {
+        font-size: 15px;
+    }
+
+    /* article  */
+
+    /* sub article, sub article 1 */
+
+    .article .sub-article {
+        height: 900px;
+        flex-direction: column;
+    }
+
+    /* article col */
+
+    .sub-article .article-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* sub article1, article col right title */
+
+    .article-col-right .article-col-right-title {
+        font-size: 23px;
+    }
+
+    /* sub article1, article col right text */
+
+    .article-col-right p {
+        font-size: 14px;
+    }
+
+    /* article courses syllabus */
+
+    .article .courses-syllabus {
+        height: 310rem;
+    }
+
+    /* courses syllabus cards div */
+
+    .courses-syllabus .courses-syllabus-cards {
+        height: 300rem;
+    }
+
+    /* syllabus card */
+
+    .courses-syllabus-cards .syllabus-card {
+        width: 90%;
+        height: 15%;
+    }
+
+    /* syllabus title text */
+
+    .syllabus-title .syllabus-title-text {
+        font-size: 31px;
+        color: var(--third);
+    }
+
+    /* syllabus card title text */
+
+    .syllabus-card-title .syllabus-card-title-text {
+        font-size: 21px;
+    }
+
+    /* syllabus card article logo */
+
+    .syllabus-card-article .syllabus-card-article-logo {
+        font-size: 50px;
+    }
+
+    /* syllabus card link */
+
+    .syllabus-card-article-col .syllabus-card-link {
+        font-size: 13px;
+    }
+
+    /* teachers */
+
+    .article .teachers {
+        height: 3100px;
+    }
+
+    /* teachers lists div */
+
+    .teachers .teachers-lists {
+        height: 3000px;
+    }
+
+    /* teachers title text */
+
+    .teachers-title .teachers-title-text {
+        font-size: 31px;
+    }
+
+    /* teachers list cards */
+
+    .teachers-lists .teachers-list-cards {
+        width: 90%;
+        height: 15%;
+    }
+
+    /* teachers list card title */
+
+    .teachers-list-card-article .teachers-list-card-title {
+        font-size: 23px;
+        color: var(--third);
+    }
+
+    /* teachers list card text */
+
+    .teachers-list-card-article .teachers-list-card-text {
+        font-size: 16px;
+    }
+
+    /* article contact */
+
+    .article .contact {
+        height: 110rem;
+    }
+
+    /* contact title text */
+
+    .contact-title .contact-title-text {
+        font-size: 31px;
+        color: var(--third);
+    }
+
+    /* contact form  */
+
+    .contact .contact-form {
+        flex-direction: column;
+        height: 100rem;
+    }
+
+    /* contact form col */
+
+    .contact-form .contact-form-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* contact form title text */
+
+    .contact-form-title .contact-form-title-text {
+        font-size: 23px;
+    }
+
+    /* contact form label */
+
+    .contact-div label {
+        font-size: 15px;
+    }
+
+    /* input placeholder */
+
+    .contact-div input::placeholder {
+        font-size: 13px;
+    }
+
+    /* contact form select */
+
+    .contact-div select {
+        font-size: 13px;
+    }
+
+    /* footer */
+
+    .footer {
+        height: 140rem;
+    }
+
+    /* footer top */
+
+    .footer .footer-top {
+        height: 135rem;
+    }
+
+    /* footer col */
+
+    .footer-top .footer-col {
+        width: 90%;
+        height: 30%;
+    }
+
+    /* footer col title text */
+
+    .footer-col-title .footer-col-title-text {
+        font-size: 23px;
+    }
+
+    /* footer col article link */
+
+    .footer-col-article .footer-col-article-link {
+        font-size: 15px;
+    }
+
+    /* footer col article span */
+
+    .footer-col-article span {
+        font-size: 15px;
+    }
+
+    /* footer icons */
+
+    .footer-col-article .footer-icons {
+        width: 70%;
+    }
+
+    /* footer icon link */
+
+    .footer-icons .footer-icon {
+        width: 4.1rem;
+        height: 4.1rem;
+        font-size: 2.1rem;
+    }
+
+    /* footer bottom */
+
+    /* footer bottom span */
+
+    .footer-bottom span {
+        font-size: 13px;
+    }
+}
+
+/* big phone */
+
+@media (min-width: 476px) and (max-width: 599px) {
+    /* header  */
+
+    /* header left */
+
+    .header .header-left {
+        width: 80%;
+    }
+
+    /* header logo */
+
+    .header-left .header-logo {
+        padding-left: 20px;
+    }
+
+    /* web site logo */
+
+    .header-logo .logo {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    /* header right */
+
+    .header .header-right {
+        width: 20%;
+    }
+
+    /* header nav */
+
+    .header-right .header-nav {
+        width: 50%;
+        padding-left: 0;
+    }
+
+    /* header items */
+
+    .header-nav .header-items {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    /* header item */
+
+    .header-items .header-item {
+        display: none;
+    }
+
+    /* header responsive item display block */
+
+    .header-items .responsive-item {
+        display: flex;
+    }
+
+    /* header responsive menu link */
+
+    .responsive-item .responsive-link {
+        font-size: 21px;
+        color: var(--white);
+    }
+
+    /* header form */
+
+    .header-right .header-form {
+        justify-content: flex-end;
+        width: 50%;
+        padding-right: 20px;
+    }
+
+    /* responsive form link icon */
+
+    .header-form .responsive-form {
+        display: block;
+        color: var(--white);
+        font-size: 19px;
+    }
+
+    /* header form link */
+
+    .header-form .header-form-link {
+        display: none;
+    }
+
+    /* background image */
+
+    .article .background {
+        height: 55vh;
+    }
+
+    /* background before */
+
+    .article .background::before {
+        height: 55%;
+    }
+
+    /* background content */
+
+    .background .background-content {
+        width: 90%;
+    }
+    
+    /* background image course name */
+    
+    .background-content .span-text {
+        font-size: 40px;
+    }
+
+    /* article */
+
+    /* article courses */
+
+    .article .courses {
+        height: 200rem;
+    }
+
+    /* courses list div */
+
+    .courses .courses-list-div {
+        height: 190rem;
+    }
+
+    /* courses title text */
+    
+    .courses-title .courses-title-text {
+        font-size: 34px;
+    }
+
+    /* courses list */
+
+    .courses-list-div .courses-list {
+        width: 90%;
+        height: 15%;
+    }
+
+    /* courses icon */
+
+    .courses-icon i {
+        font-size: 60px;
+    }
+
+    /* courses card title */
+
+    .courses-name .courses-card-title {
+        font-size: 25px;
+    }
+
+    /* courses card text */
+
+    .courses-name .courses-card-text {
+        font-size: 16px;
+    }
+
+    /* article  */
+
+    /* sub article, sub article 1 */
+
+    .article .sub-article {
+        height: 900px;
+        flex-direction: column;
+    }
+
+    /* article col */
+
+    .sub-article .article-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* sub article1, article col right title */
+
+    .article-col-right .article-col-right-title {
+        font-size: 25px;
+    }
+
+    /* sub article1, article col right text */
+
+    .article-col-right p {
+        font-size: 15px;
+    }
+
+    /* sub article1, article col right text */
+
+    .article-col-right p {
+        font-size: 16px;
+    }
+
+    /* article courses syllabus */
+
+    .article .courses-syllabus {
+        height: 310rem;
+    }
+
+    /* courses syllabus cards div */
+
+    .courses-syllabus .courses-syllabus-cards {
+        height: 300rem;
+    }
+
+    /* syllabus card */
+
+    .courses-syllabus-cards .syllabus-card {
+        width: 90%;
+        height: 15%;
+    }
+
+    /* syllabus title text */
+
+    .syllabus-title .syllabus-title-text {
+        font-size: 34px;
+        color: var(--third);
+    }
+
+    /* syllabus card title text */
+
+    .syllabus-card-title .syllabus-card-title-text {
+        font-size: 21px;
+    }
+
+    /* syllabus card article logo */
+
+    .syllabus-card-article .syllabus-card-article-logo {
+        font-size: 50px;
+    }
+
+    /* syllabus card link */
+
+    .syllabus-card-article-col .syllabus-card-link {
+        font-size: 14px;
+    }
+
+    /* teachers */
+
+    .article .teachers {
+        height: 3100px;
+    }
+
+    /* teachers lists div */
+
+    .teachers .teachers-lists {
+        height: 3000px;
+    }
+
+    /* teachers title text */
+
+    .teachers-title .teachers-title-text {
+        font-size: 34px;
+    }
+
+    /* teachers list cards */
+
+    .teachers-lists .teachers-list-cards {
+        width: 90%;
+        height: 15%;
+    }
+
+    /* teachers list card title */
+
+    .teachers-list-card-article .teachers-list-card-title {
+        font-size: 25px;
+        color: var(--third);
+    }
+
+    /* teachers list card text */
+
+    .teachers-list-card-article .teachers-list-card-text {
+        font-size: 16px;
+    }
+
+    /* article contact */
+
+    .article .contact {
+        height: 110rem;
+    }
+
+    /* contact title text */
+
+    .contact-title .contact-title-text {
+        font-size: 34px;
+        color: var(--third);
+    }
+
+    /* contact form  */
+
+    .contact .contact-form {
+        flex-direction: column;
+        height: 100rem;
+    }
+
+    /* contact form col */
+
+    .contact-form .contact-form-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* contact form title text */
+
+    .contact-form-title .contact-form-title-text {
+        font-size: 25px;
+    }
+
+    /* contact form label */
+
+    .contact-div label {
+        font-size: 16px;
+    }
+
+    /* input placeholder */
+
+    .contact-div input::placeholder {
+        font-size: 14px;
+    }
+
+    /* contact form select */
+
+    .contact-div select {
+        font-size: 14px;
+    }
+
+    /* footer */
+
+    .footer {
+        height: 140rem;
+    }
+
+    /* footer top */
+
+    .footer .footer-top {
+        height: 135rem;
+    }
+
+    /* footer col */
+
+    .footer-top .footer-col {
+        width: 90%;
+        height: 30%;
+    }
+
+    /* footer col title text */
+
+    .footer-col-title .footer-col-title-text {
+        font-size: 25px;
+    }
+
+    /* footer col article link */
+
+    .footer-col-article .footer-col-article-link {
+        font-size: 16px;
+    }
+
+    /* footer col article span */
+
+    .footer-col-article span {
+        font-size: 16px;
+    }
+
+    /* footer icons */
+
+    .footer-col-article .footer-icons {
+        width: 70%;
+    }
+
+    /* footer icon link */
+
+    .footer-icons .footer-icon {
+        width: 4.4rem;
+        height: 4.4rem;
+        font-size: 2.3rem;
+    }
+
+    /* footer bottom */
+
+    /* footer bottom span */
+
+    .footer-bottom span {
+        font-size: 14px;
+    }
+}
+
+/* landscape */
+
+@media (min-width: 600px) and (max-width: 767px) {
+    /* header  */
+
+    /* header left */
+
+    .header .header-left {
+        width: 80%;
+    }
+
+    /* header logo */
+
+    .header-left .header-logo {
+        padding-left: 20px;
+    }
+
+    /* web site logo */
+
+    .header-logo .logo {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    /* header right */
+
+    .header .header-right {
+        width: 20%;
+    }
+
+    /* header nav */
+
+    .header-right .header-nav {
+        width: 50%;
+        padding-left: 0;
+    }
+
+    /* header items */
+
+    .header-nav .header-items {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    /* header item */
+
+    .header-items .header-item {
+        display: none;
+    }
+
+    /* header responsive item display block */
+
+    .header-items .responsive-item {
+        display: flex;
+    }
+
+    /* header responsive menu link */
+
+    .responsive-item .responsive-link {
+        font-size: 23px;
+        color: var(--white);
+    }
+
+    /* header form */
+
+    .header-right .header-form {
+        justify-content: flex-end;
+        width: 50%;
+        padding-right: 20px;
+    }
+
+    /* responsive form link icon */
+
+    .header-form .responsive-form {
+        display: block;
+        color: var(--white);
+        font-size: 21px;
+    }
+
+    /* header form link */
+
+    .header-form .header-form-link {
+        display: none;
+    }
+    
+    /* background image */
+
+    .article .background {
+        height: 70vh;
+    }
+
+    /* background before */
+
+    .article .background::before {
+        height: 70%;
+    }
+
+    /* background content */
+
+    .background .background-content {
+        width: 80%;
+    }
+    
+    /* background image course name */
+    
+    .background-content .span-text {
+        font-size: 55px;
+    }
+
+    /* article */
+
+    /* article courses */
+
+    .article .courses {
+        height: 115rem;
+    }
+
+    /* courses list div */
+
+    .courses .courses-list-div {
+        height: 105rem;
+    }
+
+    /* courses title text */
+    
+    .courses-title .courses-title-text {
+        font-size: 34px;
+    }
+
+    /* courses list */
+
+    .courses-list-div .courses-list {
+        width: 45%;
+        height: 30%;
+    }
+
+    /* courses icon */
+
+    .courses-icon i {
+        font-size: 70px;
+    }
+
+    /* courses card title */
+
+    .courses-name .courses-card-title {
+        font-size: 25px;
+    }
+
+    /* courses card text */
+
+    .courses-name .courses-card-text {
+        font-size: 16px;
+    }
+
+    /* article  */
+
+    /* sub article, sub article 1 */
+
+    .article .sub-article {
+        height: 900px;
+        flex-direction: column;
+    }
+
+    /* article col */
+
+    .sub-article .article-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* sub article1, article col right title */
+
+    .article-col-right .article-col-right-title {
+        font-size: 25px;
+    }
+
+    /* sub article1, article col right text */
+
+    .article-col-right p {
+        font-size: 16px;
+    }
+
+    /* article courses syllabus */
+
+    .article .courses-syllabus {
+        height: 160rem;
+    }
+
+    /* courses syllabus cards div */
+
+    .courses-syllabus .courses-syllabus-cards {
+        height: 150rem;
+    }
+
+    /* syllabus card */
+
+    .courses-syllabus-cards .syllabus-card {
+        width: 45%;
+        height: 30%;
+    }
+
+    /* syllabus title text */
+
+    .syllabus-title .syllabus-title-text {
+        font-size: 34px;
+        color: var(--third);
+    }
+
+    /* syllabus card title text */
+
+    .syllabus-card-title .syllabus-card-title-text {
+        font-size: 23px;
+    }
+
+    /* syllabus card article logo */
+
+    .syllabus-card-article .syllabus-card-article-logo {
+        font-size: 50px;
+    }
+
+    /* syllabus card link */
+
+    .syllabus-card-article-col .syllabus-card-link {
+        font-size: 15px;
+    }
+
+    /* teachers */
+
+    .article .teachers {
+        height: 1600px;
+    }
+
+    /* teachers lists div */
+
+    .teachers .teachers-lists {
+        height: 1500px;
+    }
+
+    /* teachers title text */
+
+    .teachers-title .teachers-title-text {
+        font-size: 34px;
+    }
+
+    /* teachers list cards */
+
+    .teachers-lists .teachers-list-cards {
+        width: 45%;
+        height: 30%;
+    }
+
+    /* teachers list card title */
+
+    .teachers-list-card-article .teachers-list-card-title {
+        font-size: 25px;
+        color: var(--third);
+    }
+
+    /* teachers list card text */
+
+    .teachers-list-card-article .teachers-list-card-text {
+        font-size: 17px;
+    }
+
+    /* article contact */
+
+    .article .contact {
+        height: 110rem;
+    }
+
+    /* contact title text */
+
+    .contact-title .contact-title-text {
+        font-size: 34px;
+        color: var(--third);
+    }
+
+    /* contact form  */
+
+    .contact .contact-form {
+        flex-direction: column;
+        height: 100rem;
+    }
+
+    /* contact form col */
+
+    .contact-form .contact-form-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* contact form title text */
+
+    .contact-form-title .contact-form-title-text {
+        font-size: 25px;
+    }
+
+    /* contact form label */
+
+    .contact-div label {
+        font-size: 16px;
+    }
+
+    .contact-div input::placeholder {
+        font-size: 14px;
+    }
+
+    /* contact form select */
+
+    .contact-div select {
+        font-size: 14px;
+    }
+
+    /* footer */
+
+    .footer {
+        height: 95rem;
+    }
+
+    /* footer top */
+
+    .footer .footer-top {
+        height: 90rem;
+    }
+
+    /* footer col */
+
+    .footer-top .footer-col {
+        width: 45%;
+        height: 40%;
+    }
+
+    /* footer col title text */
+
+    .footer-col-title .footer-col-title-text {
+        font-size: 25px;
+    }
+
+    /* footer col article link */
+
+    .footer-col-article .footer-col-article-link {
+        font-size: 16px;
+    }
+
+    /* footer col article span */
+
+    .footer-col-article span {
+        font-size: 16px;
+    }
+
+    /* footer icons */
+
+    .footer-col-article .footer-icons {
+        width: 90%;
+    }
+
+    /* footer icon link */
+
+    .footer-icons .footer-icon {
+        width: 4.4rem;
+        height: 4.4rem;
+        font-size: 2.3rem;
+    }
+
+    /* footer bottom */
+
+    /* footer bottom span */
+
+    .footer-bottom span {
+        font-size: 15px;
+    }
+    
+}
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* header  */
+
+    .header {
+        height: 160px;
+        flex-direction: column;
+    }
+
+    /* header left */
+
+    .header .header-left {
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        border-bottom: 1px solid var(--white);
+    }
+
+    /* header div logo */
+
+    .header-left .header-logo {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    /* web site logo */
+
+    .header-logo .logo {
+        font-size: 55px;
+        margin-bottom: 0;
+        
+    }
+
+    /* header right */
+
+    .header .header-right {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* header nav */
+
+    .header-right .header-nav {
+        justify-content: flex-start;
+        width: 90%;
+    }
+
+    /* header items */
+
+    .header-nav .header-items {
+        justify-content: flex-start;
+        width: 50%;
+    }
+
+    /* header link  */
+
+    .header-item .header-link {
+        font-size: 17px;
+    }
+
+    /* header form */
+
+    .header-right .header-form {
+        width: 10%;
+    }
+
+    /* header form link display none */
+
+    .header-form .header-form-link {
+        display: none;
+    }
+
+    /* header form link display block */
+
+    .header-form .responsive-form {
+        display: block;
+        color: var(--white);
+        font-size: 25px;
+    }
+
+    /* background image */
+
+    .article .background {
+        height: 70vh;
+    } 
+
+    .article .background::before {
+        height: 70%;
+    }
+
+    /* background content */
+
+    .background .background-content {
+        width: 70%;
+    }
+
+    /* background image course name */
+
+    .background-content .span-text {
+        font-size: 60px;
+    }
+
+    /* article */
+
+    /* article courses */
+
+    .article .courses {
+        height: 115rem;
+    }
+
+    /* courses list div */
+
+    .courses .courses-list-div {
+        height: 105rem;
+    }
+
+    /* courses title text */
+    
+    .courses-title .courses-title-text {
+        font-size: 37px;
+    }
+
+    /* courses list */
+
+    .courses-list-div .courses-list {
+        width: 45%;
+        height: 30%;
+    }
+
+    /* courses icon */
+
+    .courses-icon i {
+        font-size: 80px;
+    }
+
+    /* courses card title */
+
+    .courses-name .courses-card-title {
+        font-size: 27px;
+    }
+
+    /* courses card text */
+
+    .courses-name .courses-card-text {
+        font-size: 17px;
+    }
+
+    /* article  */
+
+    /* sub article, sub article 1 */
+
+    .article .sub-article {
+        height: 900px;
+        flex-direction: column;
+    }
+
+    /* article col */
+
+    .sub-article .article-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* sub article1, article col right title */
+
+    .article-col-right .article-col-right-title {
+        font-size: 27px;
+    }
+
+    /* sub article1, article col right text */
+
+    .article-col-right p {
+        font-size: 17px;
+    }
+
+    /* article courses syllabus */
+
+    .article .courses-syllabus {
+        height: 160rem;
+    }
+
+    /* courses syllabus cards div */
+
+    .courses-syllabus .courses-syllabus-cards {
+        height: 150rem;
+    }
+
+    /* syllabus card */
+
+    .courses-syllabus-cards .syllabus-card {
+        width: 45%;
+        height: 30%;
+    }
+
+    /* syllabus title text */
+
+    .syllabus-title .syllabus-title-text {
+        font-size: 37px;
+        color: var(--third);
+    }
+
+    /* syllabus card title text */
+
+    .syllabus-card-title .syllabus-card-title-text {
+        font-size: 25px;
+    }
+
+    /* syllabus card article logo */
+
+    .syllabus-card-article .syllabus-card-article-logo {
+        font-size: 60px;
+    }
+
+    /* syllabus card link */
+
+    .syllabus-card-article-col .syllabus-card-link {
+        font-size: 16px;
+    }
+
+    /* teachers */
+
+    .article .teachers {
+        height: 1600px;
+    }
+
+    /* teachers lists div */
+
+    .teachers .teachers-lists {
+        height: 1500px;
+    }
+
+    /* teachers title text */
+
+    .teachers-title .teachers-title-text {
+        font-size: 37px;
+    }
+
+    /* teachers list cards */
+
+    .teachers-lists .teachers-list-cards {
+        width: 45%;
+        height: 30%;
+    }
+
+    /* teachers list card title */
+
+    .teachers-list-card-article .teachers-list-card-title {
+        font-size: 27px;
+        color: var(--third);
+    }
+
+    /* teachers list card text */
+
+    .teachers-list-card-article .teachers-list-card-text {
+        font-size: 18px;
+    }
+
+    /* article contact */
+
+    .article .contact {
+        height: 110rem;
+    }
+
+    /* contact title text */
+
+    .contact-title .contact-title-text {
+        font-size: 37px;
+        color: var(--third);
+    }
+
+    /* contact form  */
+
+    .contact .contact-form {
+        flex-direction: column;
+        height: 100rem;
+    }
+
+    /* contact form col */
+
+    .contact-form .contact-form-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* contact form title text */
+
+    .contact-form-title .contact-form-title-text {
+        font-size: 27px;
+    }
+
+    /* contact form label */
+
+    .contact-div label {
+        font-size: 17px;
+    }
+
+    /* footer */
+
+    .footer {
+        height: 95rem;
+    }
+
+    /* footer top */
+
+    .footer .footer-top {
+        height: 90rem;
+    }
+
+    /* footer col */
+
+    .footer-top .footer-col {
+        width: 45%;
+        height: 40%;
+    }
+
+    /* footer col title text */
+
+    .footer-col-title .footer-col-title-text {
+        font-size: 27px;
+    }
+
+    /* footer col article link */
+
+    .footer-col-article .footer-col-article-link {
+        font-size: 17px;
+    }
+
+    /* footer col article span */
+
+    .footer-col-article span {
+        font-size: 17px;
+    }
+
+    /* footer icon link */
+
+    .footer-icons .footer-icon {
+        width: 4.7rem;
+        height: 4.7rem;
+        font-size: 2.5rem;
+    }
+
+    /* footer bottom */
+
+    /* footer bottom span */
+
+    .footer-bottom span {
+        font-size: 16px;
+    }
+}
+
+/* mini laptop */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* header */
+
+    .header {
+        height: 160px;
+        flex-direction: column;
+    }
+
+    /* header left */
+
+    .header .header-left {
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        border-bottom: 1px solid var(--white);
+    }
+
+    /* header div logo */
+
+    .header-left .header-logo {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    /* web site logo */
+
+    .header-logo .logo {
+        font-size: 55px;
+        margin-bottom: 0;
+    }
+
+    /* header right */
+
+    .header .header-right {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* header nav */
+
+    .header-right .header-nav {
+        justify-content: flex-start;
+        width: 75%;
+    }
+
+    /* header items */
+
+    .header-nav .header-items {
+        justify-content: flex-start;
+        width: 50%;
+    }
+
+    /* header form */
+
+    .header-right .header-form {
+        width: 25%;
+    }
+
+    /* header link  */
+
+    .header-item .header-link {
+        font-size: 17px;
+    }
+
+    /* header form link */
+
+    .header-form .header-form-link {
+        font-size: 17px;
+    }
+
+    /* background image */
+
+    /* background content */
+
+    .background .background-content {
+        width: 60%;
+    }
+
+    /* background image course name */
+
+    .background-content .span-text {
+        font-size: 65px;
+    }
+
+    /* courses */
+
+    /* courses title text */
+
+    .courses-title .courses-title-text {
+        font-size: 37px;
+    }
+
+    /* courses icon */
+
+    .courses-icon i {
+        font-size: 90px;
+    }
+
+    /* courses card title */
+
+    .courses-name .courses-card-title {
+        font-size: 27px;
+    }
+
+    /* courses card text */
+
+    .courses-name .courses-card-text {
+        font-size: 17px;
+    }
+
+    /* article  */
+
+    /* sub article1, article col right title */
+
+    .article-col-right .article-col-right-title {
+        font-size: 27px;
+    }
+
+    /* sub article1, article col right text */
+
+    .article-col-right p {
+        font-size: 17px;
+    }
+
+    /* syllabus title text */
+
+    .syllabus-title .syllabus-title-text {
+        font-size: 37px;
+        color: var(--third);
+    }
+
+    /* syllabus card title text */
+
+    .syllabus-card-title .syllabus-card-title-text {
+        font-size: 27px;
+    }
+
+    /* syllabus card article logo */
+
+    .syllabus-card-article .syllabus-card-article-logo {
+        font-size: 70px;
+    }
+
+    /* syllabus card link */
+
+    .syllabus-card-article-col .syllabus-card-link {
+        font-size: 16px;
+    }
+
+    /* teachers title text */
+
+    .teachers-title .teachers-title-text {
+        font-size: 37px;
+    }
+
+    /* teachers list card title */
+
+    .teachers-list-card-article .teachers-list-card-title {
+        font-size: 27px;
+        color: var(--third);
+    }
+
+    /* teachers list card text */
+
+    .teachers-list-card-article .teachers-list-card-text {
+        font-size: 19px;
+    }
+
+    /* article contact */
+
+    .article .contact {
+        height: 110rem;
+    }
+
+    /* contact title text */
+
+    .contact-title .contact-title-text {
+        font-size: 37px;
+        color: var(--third);
+    }
+
+    /* contact form  */
+
+    .contact .contact-form {
+        flex-direction: column;
+        height: 100rem;
+    }
+
+    /* contact form col */
+
+    .contact-form .contact-form-col {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* contact form title text */
+
+    .contact-form-title .contact-form-title-text {
+        font-size: 27px;
+    }
+
+    /* contact form label */
+
+    .contact-div label {
+        font-size: 17px;
+    }
+
+    /* footer col title text */
+
+    .footer-col-title .footer-col-title-text {
+        font-size: 27px;
+    }
+
+    /* footer col article link */
+
+    .footer-col-article .footer-col-article-link {
+        font-size: 17px;
+    }
+
+    /* footer col article span */
+
+    .footer-col-article span {
+        font-size: 17px;
+    }
+
+    /* footer icons */
+
+    .footer-col-article .footer-icons {
+        justify-content: space-between;
+    }
+
+    /* footer icon link */
+
+    .footer-icons .footer-icon {
+        width: 4.7rem;
+        height: 4.7rem;
+        font-size: 2.5rem;
+    }
+
+    /* footer bottom */
+
+    /* footer bottom span */
+
+    .footer-bottom span {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/register-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="header-logo">
+                <h1 class="logo">
+                    <i class="fa-brands fa-python"></i>
+                </h1>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="header-nav">
+                <ul class="header-items">
+                    <li class="header-item">
+                        <a href="index.html" class="header-link">Anasəhifə</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="index.html#courses-syllabus" class="header-link">Təlimlər</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="about.html" class="header-link">Haqqımızda</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="index.html#contact" class="header-link">Əlaqə</a>
+                    </li>
+                    <li class="responsive-item">
+                        <a href="#" class="responsive-link">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-form">
+                <a href="login.html" class="header-form-link login">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    Giriş
+                </a>
+                <a href="register.html" class="header-form-link register">
+                    <i class="fa-solid fa-user-plus"></i>
+                    Qeydiyyat
+                </a>
+                <a href="#" class="responsive-form">
+                    <i class="fa-sharp fa-solid fa-user-plus"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- article -->
+
+    <!-- about article -->
+    <main class="register-article">
+        <div class="register">
+            <div class="register-title">
+                <h2 class="register-title-text">Qeydiyyat</h2>
+            </div>
+            <form action="#" class="register-form">
+                <div class="register-div register-div1">
+                    <div class="form-div name-div">
+                        <label for="name">Ad:</label>
+                        <input type="text" id="name" placeholder="Elnur" pattern="[A-Za-z]{2,64}">
+                    </div>
+                    <div class="form-div surname-div">
+                        <label for="surname">Soyad:</label>
+                        <input type="text" id="surname" placeholder="Mammadov" pattern="[A-Za-z]{2,64}">
+                    </div>
+                </div>
+                <div class="register-div register-div2">
+                    <div class="form-div email-div">
+                        <label for="email">* E-Poçt:</label>
+                        <input type="email" id="email" placeholder="elnurmammadov@gmail.com" required>
+                    </div>
+                    <div class="form-div phone-div">
+                        <label for="name">Tel:</label>
+                        <input type="text" id="name" placeholder="Zəhmət olmasa bu şəkildə yazın: 055 123 45 67" pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}">
+                    </div>
+                </div>
+                <div class="register-div register-div3">
+                    <div class="form-div username-div">
+                        <label for="username">* İstifadəçi Adı:</label>
+                        <input type="text" id="username" placeholder="İstifadəçi Adı..." pattern="[a-z0-9]{8,64}" required>
+                    </div>
+                    <div class="form-div password-div">
+                        <label for="password">* Parol:</label>
+                        <input type="password" id="password" placeholder="Şifrə..." pattern="[A-Za-z0-9]{8,128}" required>
+                    </div>
+                </div>
+                <div class="register-div register-div4">
+                    <div class="form-div gender-div">
+                        <label for="gender">* Cinsiniz:</label>
+                        <select id="gender" required>
+                            <option value="disabled1" disabled>Cinsiniz</option>
+                            <option value="male">Kişi</option>
+                            <option value="female">Qadın</option>
+                        </select>
+                    </div>
+                    <div class="form-div area-of-interest">
+                        <label for="area-of-interest2">* Maraq Dairəniz:</label>
+                        <select id="area-of-interest2" required>
+                            <option value="disabled2" disabled>Maraq Dairəniz</option>
+                            <option value="web-tasarim">Veb Dizayn</option>
+                            <option value="web-programlama">Veb Proqramlaşdırma</option>
+                            <option value="grafik-tasarim">Qrafik Dizayn</option>
+                            <option value="oyun-programlama">Oyun Proqramlaşdırma</option>
+                            <option value="mobil-programlama">Mobil Proqramlaşdırma</option>
+                            <option value="siber-guvenlik">Kiber Təhlükəsizlik</option>
+                            <option value="other">Digər</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="register-div rules">
+                    <div class="rules-div reject-the-rules">
+                        <input type="radio" id="rules-reject" name="rules1" checked>
+                        <label for="rules-reject" class="rules-div-text reject-the-rules-text">
+                            <a href="#" class="rules-div-link reject-the-rules-link">Müqavilə Şərtləri</a>'ni rədd edirəm.
+                        </label>
+                    </div>
+                    <div class="rules-div accept-the-rules">
+                        <input type="radio" id="rules-accept" name="rules1">
+                        <label for="rules-accept" class="rules-div-text accept-the-rules-text">
+                            <a href="#" class="rules-div-link accept-the-rules-link">Müqavilə Şərtləri</a>'ni oxudum, qəbul edirəm.
+                        </label>
+                    </div>
+                </div>
+                <div class="register-div button-div">
+                    <a href="#" class="register-button-link">
+                        <button class="btn btn-light">Qeyd Ol</button>
+                    </a>
+                </div>
+                <div class="register-div form-bottom">
+                    <a href="login.html" class="form-bottom-link">Daha öncə qeydiyyat'dan keçmisiniz ?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-col footer-col-left">
+                <div class="footer-col-title">
+                    <h3 class="footer-col-title-text">Menu</h3>
+                </div>
+                <div class="footer-col-article">
+                    <a href="index.html" class="footer-col-article-link">Əsas səhifə</a>
+                    <a href="#courses" class="footer-col-article-link">Təlimlər</a>
+                    <a href="#sub-article" class="footer-col-article-link">Məqalələr</a>
+                    <a href="about.html" class="footer-col-article-link">Haqqımızda</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Əlaqə</a>
+                </div>
+            </div>
+            <div class="footer-col footer-col-center">
+                <div class="footer-col-title">
+                    <h3 class="footer-col-title-text">Kurslar</h3>
+                </div>
+                <div class="footer-col-article">
+                    <a href="index.html#contact" class="footer-col-article-link">Veb Dizayn</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Veb Proqramlaşdırma</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Qrafik Dizayn</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Oyun Proqramlaşdırma</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Mobil Proqramlaşdırma</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Kiber Təhlükəsizlik</a>
+                </div>
+            </div>
+            <div class="footer-col footer-col-right">
+                <div class="footer-col-title">
+                    <h3 class="footer-col-title-text">Bizimlə Əlaqə</h3>
+                </div>
+                <div class="footer-col-article">
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Ünvan : Bakı şəh. | Nərimanov | Metro | St.
+                    </span>
+                    <span>
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                        Email : pythonacademy@gmail.com
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                        Telefon : 055 123 45 67
+                    </span>
+                    <div class="footer-icons">
+                        <a href="#" class="footer-icon whatsapp-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="footer-icon instagram-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer-icon telegram-icon">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="#" class="footer-icon youtube-icon">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-bottom-text">&copy Python Academy 2023. Müəllif Hüquqları Qorunur.</span>
+        </div>
+    </footer>
+</body>
+</html>

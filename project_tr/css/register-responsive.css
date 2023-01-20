@@ -1,0 +1,469 @@
+@media (max-width: 475px) {
+    /* register article */
+
+    .register-article {
+        height: 1100px;
+    }
+
+    /* register */
+
+    .register-article .register {
+        width: 90%;
+        height: 90%;
+    }
+
+    /* register title text */
+
+    .register-title .register-title-text {
+        font-size: 21px;
+        color: var(--light);
+    }
+
+    /* register form */
+
+    .register .register-form {
+        justify-content: flex-start;
+    }
+
+    /* register div */
+
+    .register-form .register-div {
+        height: 19.5%;
+    }
+
+    /* register form rules */
+
+    .register-form .rules {
+        height: 7%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* button div */
+
+    .register-form .button-div {
+        height: 7%;
+        align-items: flex-end;
+    }
+
+    /* form button */
+
+    .register-form .form-bottom {
+        height: 7%;
+        align-items: center;
+    }
+
+    /* form div */
+
+    .register-div .form-div {
+        width: 90%;
+        height: 40%;
+    }
+
+    /* rules div */
+
+    .rules .rules-div {
+        width: 90%;
+    }
+
+    /* register label */
+
+    .register-div label {
+        font-size: 15px;
+    }
+
+    /* rules label */
+
+    .rules-div label {
+        font-size: 12px;
+    }
+
+    /* register input */
+
+    .register-div input {
+        font-size: 13px;
+    }
+
+    .register-div input::placeholder {
+        font-size: 12px;
+    }
+
+    /* register select */
+
+    .register-div select {
+        font-size: 13px;
+    }
+
+    /* button */
+
+    .button-div button {
+        font-size: 13px;
+    }
+
+    /* form bottom link */
+
+    .form-bottom a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 599px) {
+    /* register article */
+
+    .register-article {
+        height: 1100px;
+    }
+
+    /* register */
+
+    .register-article .register {
+        width: 90%;
+        height: 90%;
+    }
+
+    /* register title text */
+
+    .register-title .register-title-text {
+        font-size: 24px;
+        color: var(--light);
+    }
+
+    /* register form */
+
+    .register .register-form {
+        justify-content: flex-start;
+    }
+
+    /* register div  */
+
+    .register-form .register-div {
+        height: 19.5%;
+    }
+
+    /* register rules */
+
+    .register-form .rules {
+        height: 7%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* button div */
+
+    .register-form .button-div {
+        height: 7%;
+        align-items: flex-end;
+    }
+
+    /* form button */
+
+    .register-form .form-bottom {
+        height: 7%;
+        align-items: center;
+    }
+
+    /* form div */
+
+    .register-div .form-div {
+        width: 80%;
+        height: 40%;
+    }
+
+    /* rules div */
+
+    .rules .rules-div {
+        width: 80%;
+    }
+
+    /* register label */
+
+    .register-div label {
+        font-size: 16px;
+    }
+
+    /* rules label */
+
+    .rules-div label {
+        font-size: 14px;
+    }
+
+    /* register input */
+
+    .register-div input {
+        font-size: 14px;
+    }
+
+    .register-div input::placeholder {
+        font-size: 13px;
+    }
+
+    /* register select */
+
+    .register-div select {
+        font-size: 13px;
+    }
+
+    /* button */
+
+    .button-div button {
+        font-size: 14px;
+    }
+
+    /* form bottom link */
+
+    .form-bottom a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    /* register article */
+
+    .register-article {
+        height: 1100px;
+    }
+
+    /* register */
+
+    .register-article .register {
+        width: 80%;
+        height: 90%;
+    }
+
+    /* register title text */
+
+    .register-title .register-title-text {
+        font-size: 24px;
+        color: var(--light);
+    }
+
+    /* register form */
+
+    .register .register-form {
+        justify-content: flex-start;
+    }
+
+    /* register div */
+
+    .register-form .register-div {
+        height: 19.5%;
+    }
+
+    /* register rules div */
+
+    .register-form .rules {
+        height: 7%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* button div */
+
+    .register-form .button-div {
+        height: 7%;
+        align-items: flex-end;
+    }
+
+    /* form button */
+
+    .register-form .form-bottom {
+        height: 7%;
+        align-items: center;
+    }
+
+    /* form div */
+
+    .register-div .form-div {
+        width: 80%;
+        height: 40%;
+    }
+    
+    /* rules div */
+
+    .rules .rules-div {
+        width: 80%;
+    }
+
+    /* register label */
+
+    .register-div label {
+        font-size: 16px;
+    }
+
+    /* register label */
+
+    .rules-div label {
+        font-size: 14px;
+    }
+
+    /* register input */
+
+    .register-div input {
+        font-size: 14px;
+    }
+
+    .register-div input::placeholder {
+        font-size: 14px;
+    }
+
+    /* register select */
+
+    .register-div select {
+        font-size: 13px;
+    }
+
+    /* button */
+
+    .button-div button {
+        font-size: 14px;
+    }
+
+    /* form bottom link */
+
+    .form-bottom a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* register article */
+
+    .register-article {
+        height: 1100px;
+    }
+
+    /* register */
+
+    .register-article .register {
+        width: 80%;
+        height: 90%;
+    }
+
+    /* register title text */
+
+    .register-title .register-title-text {
+        font-size: 27px;
+        color: var(--light);
+    }
+
+    /* register form */
+
+    .register .register-form {
+        justify-content: flex-start;
+    }
+
+    /* register div */
+
+    .register-form .register-div {
+        height: 19.5%;
+    }
+
+    /* rules */
+    
+    .register-form .rules {
+        height: 7%;
+    }
+
+    /* button div */
+
+    .register-form .button-div {
+        height: 7%;
+        align-items: flex-end;
+    }
+
+    /* form button */
+
+    .register-form .form-bottom {
+        height: 7%;
+        align-items: center;
+    }
+
+    /* form div */
+
+    .register-div .form-div {
+        width: 70%;
+        height: 40%;
+    }
+
+    /* register label */
+
+    .register-div label {
+        font-size: 17px;
+    }
+
+    /* rules label */
+
+    .rules-div label {
+        font-size: 15px;
+    }
+
+    /* register input */
+
+    .register-div input {
+        font-size: 14px;
+    }
+
+    .register-div input::placeholder {
+        font-size: 14px;
+    }
+
+    /* register select */
+
+    .register-div select {
+        font-size: 14px;
+    }
+
+    /* button */
+
+    .button-div button {
+        font-size: 15px;
+    }
+
+    /* form bottom link */
+
+    .form-bottom a {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* register title text */
+
+    .register-title .register-title-text {
+        font-size: 27px;
+    }
+
+    /* register div label */
+
+    .register-div label {
+        font-size: 17px;
+    }
+
+    /* register div input */
+
+    .register-div input {
+        font-size: 14px;
+    }
+
+    .register-div input::placeholder {
+        font-size: 13px;
+    }
+
+    /* register div select */
+
+    .register-div select {
+        font-size: 14px;
+    }
+
+    /* button */
+
+    .button-div button {
+        font-size: 15px;
+    }
+
+    /* form bottom link */
+
+    .form-bottom a {
+        font-size: 17px;
+    }
+}

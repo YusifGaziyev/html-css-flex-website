@@ -1,0 +1,171 @@
+/* header */
+
+/* background before */
+
+.background::before {
+    opacity: 0 !important;
+}
+
+/* background */
+
+/* background login */
+
+.background .background-login {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    opacity: 0.8;
+    border-radius: 1rem;
+    margin-top: 7rem;
+    position: relative;
+    background-color: var(--light);
+}
+
+/* background login title */
+
+.background-login .background-login-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-bottom: .1rem solid var(--third);
+}
+
+/* background login title text */
+
+.background-login-title .background-login-title-text {
+    font-size: 3rem;
+}
+
+/* background login form */
+
+.background-login .background-login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
+}
+
+/* form div */
+
+.background-login-form .form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 24%;
+}
+
+/* form div input */
+
+.form-div input {
+    padding: 1rem;
+    width: 50%;
+    outline: none;
+    border: .2rem solid var(--first);
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+.form-div input::placeholder {
+    font-size: 1.5rem;
+}
+
+.form-div input::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/* form div label */
+
+.form-div label::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/* form bottom */
+
+.background-login .form-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 25%;
+}
+
+/* form bottom div */
+
+.form-bottom .form-bottom-div {
+    width: 40%;
+    height: 50%;
+    background-color: var(--light);
+}
+
+/* form bottom left */
+
+.form-bottom .form-bottom-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* form bottom left link */
+
+.form-bottom-left .form-bottom-left-link {
+    color: var(--dark);
+    font-size: 1.6rem;
+}
+
+.form-bottom-left .form-bottom-left-link:hover {
+    color: var(--third);
+    transition-duration: .4s;
+    border-bottom: .1rem solid var(--third);
+}
+
+/* form bottom logo */
+
+.form-bottom .form-bottom-logo {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 10%;
+}
+
+/* form bottom logo icon */
+
+.form-bottom-logo i {
+    font-size: 6rem;
+    color: var(--third);
+}
+
+/* form bottom right */
+
+.form-bottom .form-bottom-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* forgot password */
+
+.form-bottom-right .forgot-password {
+    color: var(--dark);
+    font-size: 1.6rem;
+}
+
+.form-bottom-right .forgot-password:hover {
+    color: var(--third);
+    transition-duration: .4s;
+    border-bottom: .1rem solid var(--third);
+}
+
+
+/* footer */
+
+.footer {
+    margin-top: 0;
+}

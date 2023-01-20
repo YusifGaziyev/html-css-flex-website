@@ -1,0 +1,128 @@
+/* header */
+
+.header {
+    position: relative;
+    opacity: 1;
+}
+
+/* about */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70rem;
+    background-color: var(--light);
+}
+
+/* about title */
+
+.about .about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    border-bottom: .1rem solid var(--dark);
+}
+
+/* about title text */
+
+.about-title h2 {
+    font-size: 4rem;
+}
+
+/* about article */
+
+.about .about-article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60rem;
+}
+
+/* about article col */
+
+.about-article .about-article-col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    border-radius: 5rem;
+    background-color: var(--dark);
+}
+
+/* about article left */
+
+.about-article .about-article-left {
+    background-color: var(--first);
+}
+
+
+/* about article right */
+
+.about-article .about-article-right {
+    background-color: var(--second);
+}
+
+/* about article col title */
+
+.about-article-right .about-article-col-title {
+    border-bottom: .1rem solid var(--dark) !important;
+}
+
+/* about article col title text */
+
+.about-article-right .about-article-col-title h3 {
+    color: var(--dark);
+}
+
+/* about article col center text */
+
+.about-article-right .about-article-col-center p {
+    color: var(--dark);
+}
+
+/* about article col title */
+
+.about-article-col .about-article-col-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-bottom: .1rem solid var(--light);
+}
+
+/* about article col title text */
+
+.about-article-col-title .about-article-col-title-text {
+    color: var(--light);
+    font-size: 3rem;
+}
+
+.about-article-col-title .about-article-col-title-text::selection {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+/* about article col center */
+
+.about-article-col .about-article-col-center {
+    width: 100%;
+    height: 80%;
+}
+
+/* about article col text */
+
+.about-article-col-center .about-article-col-text {
+    padding: 3rem;
+    color: var(--light);
+}
+
+.about-article-col-center .about-article-col-text::selection {
+    background-color: var(--light);
+    color: var(--dark);
+}

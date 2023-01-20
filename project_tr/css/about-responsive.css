@@ -1,0 +1,185 @@
+/* phone */
+
+@media (max-width: 475px) {
+    /* about */
+
+    .about {
+        height: 1300px;
+    }
+
+    /* about title text */
+
+    .about-title h2 {
+        font-size: 31px;
+    }
+
+    /* about article */
+
+    .about .about-article {
+        height: 1200px;
+    }
+
+    /* about article col */
+
+    .about-article .about-article-col {
+        width: 90%;
+        height: 45%;
+    }
+
+    /* about article col title text */
+
+    .about-article-col-title .about-article-col-title-text {
+        font-size: 23px;
+    }
+
+    /* about article col text */
+
+    .about-article-col-center .about-article-col-text {
+        font-size: 14px;
+    }
+}
+
+/* big phone */
+
+@media (min-width: 476px) and (max-width: 599px) {
+    /* about */
+
+    .about {
+        height: 1100px;
+    }
+
+    /* about title text */
+
+    .about-title h2 {
+        font-size: 34px;
+    }
+
+    /* about article */
+
+    .about .about-article {
+        height: 1000px;
+    }
+
+    /* about article col */
+
+    .about-article .about-article-col {
+        width: 90%;
+        height: 45%;
+    }
+
+    /* about article col title text */
+
+    .about-article-col-title .about-article-col-title-text {
+        font-size: 25px;
+    }
+
+    /* about article col text */
+
+    .about-article-col-center .about-article-col-text {
+        font-size: 15px;
+    }
+}
+
+/* landscape */
+
+@media (min-width: 600px) and (max-width: 767px) {
+    /* about */
+
+    .about {
+        height: 1000px;
+    }
+
+    /* about title text */
+
+    .about-title h2 {
+        font-size: 34px;
+    }
+
+    /* about article */
+
+    .about .about-article {
+        height: 900px;
+    }
+
+    /* about article col */
+
+    .about-article .about-article-col {
+        width: 90%;
+        height: 45%;
+    }
+
+    /* about article col title text */
+
+    .about-article-col-title .about-article-col-title-text {
+        font-size: 25px;
+    }
+
+    /* about article col text */
+
+    .about-article-col-center .about-article-col-text {
+        font-size: 16px;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* about */
+
+    .about {
+        height: 1000px;
+    }
+
+    /* about title text */
+
+    .about-title h2 {
+        font-size: 37px;
+    }
+
+    /* about article */
+
+    .about .about-article {
+        height: 900px;
+    }
+
+    /* about article col */
+
+    .about-article .about-article-col {
+        width: 90%;
+        height: 45%;
+    }
+
+    /* about article col title text */
+
+    .about-article-col-title .about-article-col-title-text {
+        font-size: 27px;
+    }
+
+    /* about article col text */
+
+    .about-article-col-center .about-article-col-text {
+        font-size: 18px;
+    }
+}
+
+/* mini laptop */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* about title text */
+
+    .about-title h2 {
+        font-size: 37px;
+    }
+
+    /* about article col title text */
+
+    .about-article-col-title .about-article-col-title-text {
+        font-size: 27px;
+    }
+
+    /* about article col text */
+
+    .about-article-col-center .about-article-col-text {
+        font-size: 17px;
+    }
+}

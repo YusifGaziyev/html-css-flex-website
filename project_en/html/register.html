@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üye Ol</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/register-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="header-logo">
+                <h1 class="logo">
+                    <i class="fa-brands fa-python"></i>
+                </h1>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="header-nav">
+                <ul class="header-items">
+                    <li class="header-item">
+                        <a href="index.html" class="header-link">Home</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="index.html#courses-syllabus" class="header-link">Courses</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="about.html" class="header-link">About</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="index.html#contact" class="header-link">Contact</a>
+                    </li>
+                    <li class="responsive-item">
+                        <a href="#" class="responsive-link">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-form">
+                <a href="login.html" class="header-form-link login">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    Login
+                </a>
+                <a href="register.html" class="header-form-link register">
+                    <i class="fa-solid fa-user-plus"></i>
+                    Register
+                </a>
+                <a href="#" class="responsive-form">
+                    <i class="fa-sharp fa-solid fa-user-plus"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- article -->
+
+    <!-- about article -->
+    <main class="register-article">
+        <div class="register">
+            <div class="register-title">
+                <h2 class="register-title-text">Register</h2>
+            </div>
+            <form action="#" class="register-form">
+                <div class="register-div register-div1">
+                    <div class="form-div name-div">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="e.g. John" pattern="[A-Za-z]{2,64}">
+                    </div>
+                    <div class="form-div surname-div">
+                        <label for="surname">Surname:</label>
+                        <input type="text" id="surname" placeholder="e.g. Smith" pattern="[A-Za-z]{2,64}">
+                    </div>
+                </div>
+                <div class="register-div register-div2">
+                    <div class="form-div email-div">
+                        <label for="email">* Email:</label>
+                        <input type="email" id="email" placeholder="e.g. johnsmith@gmail.com" required>
+                    </div>
+                    <div class="form-div phone-div">
+                        <label for="phone">Phone:</label>
+                        <input type="text" id="phone" placeholder="Please write like this: Örn: +1 123 456 7890">
+                    </div>
+                </div>
+                <div class="register-div register-div3">
+                    <div class="form-div username-div">
+                        <label for="username">* Username:</label>
+                        <input type="text" id="username" placeholder="e.g. john1999" pattern="[a-z0-9]{8,64}" required>
+                    </div>
+                    <div class="form-div password-div">
+                        <label for="password">* Password:</label>
+                        <input type="password" id="password" placeholder="Enter at least 8 characters" pattern="[A-Za-z0-9]{8,128}" required>
+                    </div>
+                </div>
+                <div class="register-div register-div4">
+                    <div class="form-div gender-div">
+                        <label for="gender">* Gender:</label>
+                        <select id="gender" required>
+                            <option value="disabled1" disabled>Your Gender:</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-div area-of-interest">
+                        <label for="area-of-interest2">* Your Area of ​​Interest:</label>
+                        <select id="area-of-interest2" required>
+                            <option value="disabled2" disabled>Your Area of ​​Interest</option>
+                            <option value="web-tasarim">Web Design</option>
+                            <option value="web-programlama">Web Programming</option>
+                            <option value="grafik-tasarim">Graphic Design</option>
+                            <option value="oyun-programlama">Game Programming</option>
+                            <option value="mobil-programlama">Mobile Programming</option>
+                            <option value="siber-guvenlik">Cyber Security</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="register-div rules">
+                    <div class="rules-div reject-the-rules">
+                        <input type="radio" id="rules-reject" name="rules1" checked>
+                        <label for="rules-reject" class="rules-div-text reject-the-rules-text">
+                            I do not accept the <a href="#" class="rules-div-link reject-the-rules-link">Community Agreement.</a>
+                        </label>
+                    </div>
+                    <div class="rules-div accept-the-rules">
+                        <input type="radio" id="rules-accept" name="rules1">
+                        <label for="rules-accept" class="rules-div-text accept-the-rules-text">
+                            I have read and accept the <a href="#" class="rules-div-link accept-the-rules-link">Community Agreement.</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="register-div button-div">
+                    <a href="#" class="register-button-link">
+                        <button class="btn btn-light">Register</button>
+                    </a>
+                </div>
+                <div class="register-div form-bottom">
+                    <a href="login.html" class="form-bottom-link">Already have an account?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-col footer-col-left">
+                <div class="footer-col-title">
+                    <h3 class="footer-col-title-text">Menu</h3>
+                </div>
+                <div class="footer-col-article">
+                    <a href="index.html" class="footer-col-article-link">Home</a>
+                    <a href="#courses" class="footer-col-article-link">Courses</a>
+                    <a href="#sub-article" class="footer-col-article-link">Articles</a>
+                    <a href="about.html" class="footer-col-article-link">About</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Contact</a>
+                </div>
+            </div>
+            <div class="footer-col footer-col-center">
+                <div class="footer-col-title">
+                    <h3 class="footer-col-title-text">Courses</h3>
+                </div>
+                <div class="footer-col-article">
+                    <a href="index.html#contact" class="footer-col-article-link">Web Design</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Web Programming</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Graphic Design</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Game Programming</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Mobile Programming</a>
+                    <a href="index.html#contact" class="footer-col-article-link">Cyber Security</a>
+                </div>
+            </div>
+            <div class="footer-col footer-col-right">
+                <div class="footer-col-title">
+                    <h3 class="footer-col-title-text">Contact Us</h3>
+                </div>
+                <div class="footer-col-article">
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Address : Suleymaniye St. | Eminonu | Fatih | Istanbul
+                    </span>
+                    <span>
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                        Email : pythonacademy@gmail.com
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                        Phone : +1 123 456 7890
+                    </span>
+                    <div class="footer-icons">
+                        <a href="#" class="footer-icon whatsapp-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="footer-icon instagram-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer-icon telegram-icon">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="#" class="footer-icon youtube-icon">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-bottom-text">&copy Python Academy 2023. All Rights Reserved.</span>
+        </div>
+    </footer>
+</body>
+</html>

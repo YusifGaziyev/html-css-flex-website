@@ -1,0 +1,1009 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.8rem;
+    color: var(--dark);
+    background-color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h2::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+h3::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+p::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+a::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+strong::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 8rem;
+    background-color: var(--dark);
+    position: fixed;
+    z-index: 20;
+    opacity: 0.8;
+}
+
+/* header left */
+
+.header .header-left {
+    display: flex;
+    width: 10%;
+    height: 100%;
+}
+
+/* header logo */
+
+.header .header-logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 3rem;
+}
+
+/* web site logo */
+
+.header-logo .logo {
+    font-size: 6rem;
+    color: var(--first);
+    height: 100%;
+    margin-bottom: 1rem;
+}
+
+/* header right */
+
+.header .header-right {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+
+/* header nav */
+
+.header .header-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    padding-left: 3rem;
+}
+
+/* header items */
+
+.header-nav .header-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+}
+
+/* header nav lists */
+
+.header-items .header-item {
+    padding: 0 1.5rem 0;
+}
+
+/* header responsive item display none */
+
+.header-items .responsive-item {
+    display: none;
+}
+
+/* header item first and last child */
+
+.header-items .header-item:first-child {
+    padding-left: 0;
+}
+
+.header-items .header-item:last-child {
+    padding-right: 0;
+}
+
+/* header nav links */
+
+.header-item .header-link {
+    color: var(--white);
+}
+
+/* header link hover and active */
+
+.header-item .header-link:hover {
+    color: var(--second);
+    transition-duration: .4s;
+    border-bottom: .2rem solid var(--second);
+    padding-bottom: 1rem;
+}
+
+.header-item .header-link:active {
+    color: var(--first);
+    transition-duration: 0s;
+    border-bottom: .2rem solid var(--first);
+    padding-bottom: 1rem;
+}
+
+/* header form */
+
+.header .header-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    padding-right: 3rem;
+}
+
+/* header form link */
+
+.header-form .header-form-link {
+    color: var(--white);
+}
+
+/* header form responsive form display none */
+
+.header-form .responsive-form {
+    display: none;
+}
+
+/* header form link hover and active */
+
+.header-form .header-form-link:hover {
+    color: var(--second);
+    transition-duration: .4s;
+    border-bottom: .2rem solid var(--second);
+    padding-bottom: 1rem;
+}
+
+.header-form .header-form-link:active {
+    color: var(--first);
+    transition-duration: 0s;
+    border-bottom: .2rem solid var(--first);
+    padding-bottom: 1rem;
+}
+
+/* header login form */
+
+.header-form .login {
+    margin-right: 4rem;
+}
+
+
+/* article */
+
+/* background image */
+
+.article .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/py_background.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+/* background before */
+
+.article .background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    opacity: 0.6;
+}
+
+/* background content */
+
+.background .background-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+    z-index: 20;
+}
+
+/* background image course name text */
+
+.background-content .span-text {
+    font-size: 7rem;
+}
+
+.background-content .span-text1 {
+    padding-right: 2rem;
+    color: var(--first);
+}
+
+.background-content .span-text2 {
+    color: var(--second);
+}
+
+.background-content .span-text::selection {
+    cursor: none;
+}
+
+/* article courses */
+
+.article .courses {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80rem;
+    background-color: var(--light);
+    margin-top: 5rem;
+    border-bottom: .1rem solid var(--third);
+}
+
+/* courses title */
+
+.courses .courses-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+}
+
+/* courses title text */
+
+.courses-title .courses-title-text {
+    font-size: 4rem;
+    color: var(--third);
+}
+
+/* courses list div */
+
+.courses .courses-list-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70rem;
+}
+
+/* courses lists  */
+
+.courses-list-div .courses-list {
+    width: 30%;
+    /* flex-basis: 30%; */
+    height: 45%;
+}
+
+/* courses icon div */
+
+.courses-list .courses-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+/* courses icon */
+
+.courses-icon i {
+    font-size: 10rem;
+    color: var(--third);
+}
+
+/* courses name */
+
+.courses-list .courses-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+/* courses card title */
+
+.courses-name .courses-card-title {
+    font-size: 3rem;
+}
+
+/* courses card text */
+
+.courses-name .courses-card-text {
+    padding: 0 1rem;
+}
+
+/* article */
+
+/* sub article, sub-article 1 and 2 */
+
+.article .sub-article {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 45rem;
+    margin-top: 5rem;
+}
+
+/* sub article 2 */
+
+.article .sub-article2 {
+    flex-direction: row-reverse;
+}
+
+/* article col */
+
+.sub-article .article-col {
+    width: 50%;
+    height: 100%;
+}
+
+/* sub article 1 and 2 */
+
+/* article col right */
+
+.sub-article .article-col-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 3rem 0;
+}
+
+/* article col right title */
+
+.article-col-right .article-col-right-title {
+    font-size: 3rem;
+    color: var(--third);
+}
+
+/* article courses syllabus */
+
+.article .courses-syllabus {
+    width: 100%;
+    height: 110rem;
+    background-color: var(--success);
+    margin-top: 3rem;
+    background-color: var(--light);
+    border-bottom: .1rem solid var(--third);
+}
+
+/* syllabus title div */
+
+.courses-syllabus .syllabus-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+}
+
+/* syllabus title text */
+
+.syllabus-title .syllabus-title-text {
+    font-size: 4rem;
+    color: var(--third);
+}
+
+/* courses syllabus cards div */
+
+.courses-syllabus .courses-syllabus-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100rem;
+    padding-bottom: 3rem;
+}
+
+/* syllabus card */
+
+.courses-syllabus-cards .syllabus-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 45%;
+    background: linear-gradient(to bottom, var(--fourth) 0%, var(--third) 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+
+/* syllabus card hover */
+
+.courses-syllabus-cards .syllabus-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition-duration: .4s;
+}
+
+/* syllabus card title */
+
+.syllabus-card .syllabus-card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-bottom: .1rem solid var(--white);
+}
+
+/* syllabus card title text */
+
+.syllabus-card-title .syllabus-card-title-text {
+    font-size: 3rem;
+    color: var(--third);
+}
+
+/* syllabus card article */
+
+.syllabus-card .syllabus-card-article {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    border-bottom: .1rem solid var(--white);
+}
+
+/* syllabus card article col */
+
+.syllabus-card-article .syllabus-card-article-col {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+/* syllabus card article left */
+
+.syllabus-card-article .syllabus-card-article-left {
+    border-right: .1rem solid var(--white);
+}
+
+/* syllabus card article logo */
+
+.syllabus-card-article .syllabus-card-article-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    font-size: 8rem;
+    color: var(--third);
+}
+
+/* syllabus card article right */
+
+.syllabus-card-article .syllabus-card-article-right {
+    border-left: .1rem solid var(--white);
+}
+
+/* syllabus card link */
+
+.syllabus-card-article-col .syllabus-card-link {
+    color: var(--white);
+    font-size: 1.7rem;
+}
+
+/* syllabus card link hover */
+
+.syllabus-card-article-col .syllabus-card-link:hover {
+    color: var(--dark);
+    transition-duration: .4s;
+}
+
+/* syllabus card button */
+
+.syllabus-card .syllabus-card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+/* teachers */
+
+.article .teachers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110rem;
+    background-color: var(--light);
+    margin-top: 5rem;
+}
+
+/* teachers title */
+
+.teachers .teachers-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+}
+
+/* teachers title text */
+
+.teachers-title .teachers-title-text {
+    font-size: 4rem;
+    color: var(--third);
+}
+
+/* teachers lists div */
+
+.teachers .teachers-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100rem;
+}
+
+/* teachers list cards */
+
+.teachers-lists .teachers-list-cards {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 45%;
+    overflow: hidden;
+}
+
+/* teachers lists card img */
+
+.teachers-list-cards .teachers-list-card-img {
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6rem;
+}
+
+/* teachers lists card img hover */
+
+.teachers-list-cards .teachers-list-card-img:hover {
+    transform: scale(1.02);
+    opacity: 0.8;
+    transition-duration: .4s;
+}
+
+/* teachers lists card img 1 */
+
+.teachers-list-cards .teachers-list-card-img1 {
+    background-image: url(../img/teacher1.jpg);
+}
+
+/* teachers lists card img 2 */
+
+.teachers-list-cards .teachers-list-card-img2 {
+    background-image: url(../img/teacher2.jpeg);
+    background-position: top;
+}
+
+/* teachers lists card img 3 */
+
+.teachers-list-cards .teachers-list-card-img3 {
+    background-image: url(../img/teacher3.jpg);
+}
+
+/* teachers lists card img 4 */
+
+.teachers-list-cards .teachers-list-card-img4 {
+    background-image: url(../img/teacher4.jpg);
+}
+
+/* teachers lists card img 5 */
+
+.teachers-list-cards .teachers-list-card-img5 {
+    background-image: url(../img/teacher5.jpeg);
+    background-position: top;
+}
+
+/* teachers lists card img 6 */
+
+.teachers-list-cards .teachers-list-card-img6 {
+    background-image: url(../img/teacher6.jpg);
+}
+
+/* teachers list card article */
+
+.teachers-list-cards .teachers-list-card-article {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* teachers list card title */
+
+.teachers-list-card-article .teachers-list-card-title {
+    font-size: 3rem;
+    color: var(--third);
+}
+
+/* teachers list card text */
+
+.teachers-list-card-article .teachers-list-card-text {
+    font-size: 2rem;
+}
+
+/* contact */
+
+.article .contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60rem;
+    margin-top: 3rem;
+}
+
+/* contact title */
+
+.contact .contact-title {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+/* contact title text */
+
+.contact-title .contact-title-text {
+    font-size: 4rem;
+    color: var(--third);
+}
+
+/* contact form */
+
+.contact .contact-form {
+    display: flex;
+    width: 100%;
+    height: 50rem;
+}
+
+/* contact form col */
+
+.contact-form .contact-form-col {
+    width: 50%;
+    height: 100%;
+}
+
+/* contact form right */
+
+.contact-form .contact-form-right {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light);
+}
+
+/* contact form title */
+
+.contact-form-right .contact-form-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 20%;
+}
+
+/* contact form title text */
+
+.contact-form-title .contact-form-title-text {
+    font-size: 3rem;
+    color: var(--third);
+}
+
+/* contact form tag */
+
+.contact-form-right .contact-form-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
+    padding: 0 1rem;
+}
+
+/* contact div */
+
+.contact-form-tag .contact-div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* contact label */
+
+.contact-div label::selection {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+/* contact form input */
+
+.contact-div input {
+    padding: 1rem;
+    outline: none;
+    border: .2rem solid var(--third);
+    border-radius: .5rem;
+}
+
+.contact-div input::placeholder {
+    font-size: 1.5rem;
+}
+
+.contact-div input::selection {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+/* contact form select */
+
+.contact-div select {
+    padding: 1rem;
+    outline: none;
+    border: .2rem solid var(--third);
+    border-radius: .5rem;
+    background-color: var(--second);
+    color: var(--third);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* contact form option */
+
+.contact-div select option {
+    background-color: var(--third);
+    color: var(--second);
+}
+
+.contact-form-tag select option::selection {
+    background-color: var(--white);
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50rem;
+    background-color: var(--dark);
+    margin-top: 5rem;
+}
+
+/* footer top */
+
+.footer .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 45rem;
+    border-bottom: .1rem solid var(--white);
+}
+
+/* footer col */
+
+.footer-top .footer-col {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+}
+
+/* footer col title */
+
+.footer-col .footer-col-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+/* footer col title text */
+
+.footer-col-title .footer-col-title-text {
+    font-size: 3rem;
+    color: var(--light);
+}
+
+.footer-col-title .footer-col-title-text::selection {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+/* footer col article */
+
+.footer-col .footer-col-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80%;
+}
+
+/* footer col article link */
+
+.footer-col-article .footer-col-article-link {
+    color: var(--light);
+}
+
+.footer-col-article .footer-col-article-link::selection {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+/* footer col article link hover */
+
+.footer-col-article .footer-col-article-link:hover {
+    color: var(--first);
+    transition-duration: .4s;
+}
+
+/* footer span */
+
+.footer-col-article span {
+    padding: 0 1rem;
+    color: var(--light);
+}
+
+.footer-col-article span::selection {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+/* footer icons */
+
+.footer-col-article .footer-icons {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer icon link */
+
+.footer-icons .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+    font-size: 2.7rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+/* whatsapp icon */
+
+.footer-icons .whatsapp-icon {
+    color: var(--success);
+}
+
+.footer-icons .whatsapp-icon:hover {
+    background-color: var(--success);
+}
+
+/* instagram icon */
+
+.footer-icons .instagram-icon {
+    color: var(--primary);
+}
+
+.footer-icons .instagram-icon:hover {
+    background-color: var(--primary);
+}
+
+/* telegram icon */
+
+.footer-icons .telegram-icon {
+    color: var(--info);
+}
+
+.footer-icons .telegram-icon:hover {
+    background-color: var(--info);
+}
+
+/* youtube icon */
+
+.footer-icons .youtube-icon {
+    color: var(--danger);
+}
+
+.footer-icons .youtube-icon:hover {
+    background-color: var(--danger);
+}
+
+/* footer icon hover */
+
+.footer-icons .footer-icon:hover {
+    color: var(--light);
+    transition-duration: .4s;
+}
+
+/* footer bottom */
+
+.footer .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+/* footer bottom text */
+
+.footer-bottom .footer-bottom-text {
+    color: var(--white);
+}
+
+.footer-bottom .footer-bottom-text::selection {
+    background-color: var(--light);
+    color: var(--dark);
+}

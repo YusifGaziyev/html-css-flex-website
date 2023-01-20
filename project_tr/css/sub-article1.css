@@ -1,0 +1,96 @@
+/* header */
+
+.header {
+    position: relative;
+    opacity: 1;
+}
+
+/* sub article page */
+
+.sub-article-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 210rem;
+    background-color: var(--light);
+}
+
+/* sub article page title */
+
+.sub-article-page .sub-article-page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+/* sub article page title text */
+
+.sub-article-page-title .sub-article-page-title-text {
+    font-size: 4rem;
+}
+
+/* sub article page text */
+
+.sub-article-page .sub-article-page-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+/* sub article page img1 */
+
+.sub-article-page-text .sub-article-page-img1 {
+    width: 70%;
+    height: 30%;
+    background-image: url(../img/img_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* sub article img text */
+
+.sub-article-page-text .sub-article-page-img-text {
+    width: 100%;
+    height: 70%;
+}
+
+/* sub article page img h3 */
+
+.sub-article-page-img-text h3 {
+    padding: 6rem;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--third);
+}
+
+/* sub article page img text p */
+
+.sub-article-page-img-text p {
+    padding: 0 3rem;
+}
+
+/* sub article page img text ul */
+
+.sub-article-page-img-text ul {
+    padding: 0 3rem;
+}
+
+/* sub article page img text li */
+
+.sub-article-page-img-text ul li::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/* sub article page img text icon */
+
+.sub-article-page-img-text ul li i {
+    padding-right: 1rem;
+    font-size: 1.8rem;
+}
+
+
